@@ -11,6 +11,12 @@
     .sec-1-row1 h1{
         font-size: 40px;
         }
+        .hr{
+            width: 93%;
+        }
+        .sec-2-flex div{
+            margin-top: 10px;
+        }
   }
 @media screen and (max-width: 834px) {
    .bar {
@@ -39,10 +45,23 @@
     .sec-1-row1 button i{
         font-size: 6px;
         }
+        .hr{
+            width: 93%;
+        }
+        .sec-2-flex div{
+            margin-top: 10px;
+        }
 }
 @media screen and (max-width: 768px) {
     .sec-1-row1 h1{text-align: center;
         }
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .hr{
+        width: 93%;
+    }
     .sec-1-row1 p{text-align: center;
         }
       .sec-1-row1{
@@ -55,6 +74,9 @@
         display: flex;
         justify-content: center;
     }
+    .sec-2-flex div{
+        margin-top: 10px;
+    }
        
 }
 @media screen and (max-width: 480px) {
@@ -63,4 +85,5 @@
         width:auto;
         height:300px;
         }
+
 }
